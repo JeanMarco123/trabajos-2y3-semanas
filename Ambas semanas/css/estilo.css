@@ -1,0 +1,197 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #900;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #100;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top:autopx;
+	font-size: larger, smaller;
+}
+
+.final{
+	font-size: 20px;
+	margin-top: leftpx;
+}
+
+.menu{
+	width: 650px;
+	height: 40px;
+	border: crimsonpx solid #ccc;
+	float: right;
+	margin-top: 10px;
+	background: #FF0080;
+    
+    
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006456;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
+
+#categorias{
+	width: auto;
+	height: content-box; overflow: border-box;
+	border: deeppink;
+	margin-top: 10px;
+}
+
+.uno{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #006699;
+}
+
+.parrafo{
+	color: #190B07;
+	text-align: center;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.descargar{
+	text-decoration: none;
+	border: 1px solid #FF0080;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #FF0080;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 950px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #FF0080;
+	padding: 5px;
+	float: left;
+}
+
+#img{
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left;
+}
+
+#img{
+	width: 900px;
+	height: auto;
+	overflow: visible;
+	border: 0px solid #ccc;
+	padding: px;
+	float: inline-end;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+
+#form{}
+
+#datos{
+	margin-top: 30px;
+}
